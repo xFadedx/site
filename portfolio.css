@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap'); /* Fancy font import */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap'); /* Orbitron for a digital look */
+
+/* Center the main container and its content */
+header.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text within the container */
+    width: 100%; /* Ensure the container spans the full width */
+    padding: 2rem 0; /* Optional: Add some vertical spacing */
+}
+
+/* Ensure the content inside the header is centered */
+header .content {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center; /* Center align all items inside */
+    max-width: 800px; /* Optional: Limit the width for visual balance */
+    margin: 0 auto; /* Center within the container */
+    text-align: center; /* Center the text */
+}
+
+.nav-links{
+    list-style: none !important;
+    display: flex!important;
+    align-items: center!important;
+    gap: rem!important;
+    margin-right: -120px!important;
+}
+
+
+#role {
+    border-right: 0px solid white!important;
+    padding-right: 5px;
+    animation: blink 0.8s steps(2) infinite;
+}
+
+
+
+#sub-heading {
+    font-size: 20px;
+    font-style: italic; /* Still keep italic if preferred */
+    font-family: 'Orbitron', sans-serif; /* Use Orbitron font for a futuristic look */
+    color: #ffffff; /* Optional: Set a unique color to highlight the text */
+    letter-spacing: 1px; /* Add some spacing for a digital effect */
+}
+
+
+p{
+    font-weight: 500;
+}
+
+.divider {
+    width: 77%; /* Set the width of the line */
+    height: 1.4px; /* Thin line */
+    margin: 1rem auto; /* Center the line and add space around it */
+    background-color: #b3b5bd; /* Set the line color */
+    border: none; /* Remove default borders */
+    opacity: 0.6; /* Make it slightly transparent */
+    margin-top: -3px;
+}
+
+
+.button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 10rem; /* Adjust spacing between the buttons */
+    margin-top: 2rem; /* Optional: Add some top margin */
+}
+
+
+
