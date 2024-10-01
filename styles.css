@@ -582,4 +582,9 @@ footer .column > a:hover{
     font-weight: 9000;
 }
 
+.socials{
+    align-content: center;
+    display: flex;
+    
+}
 /* PORTFOLIO.HTML BELOW */

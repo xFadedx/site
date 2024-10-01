@@ -1,0 +1,89 @@
+/* Project Card Styles */
+.project-section {
+    margin-top: 4rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #27272a;
+    padding: 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.project-card:hover {
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.project-card img {
+    width: 500p;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project-card .card-content {
+    margin-top: 1rem;
+}
+
+.project-card h3 {
+    color: #1d4ed8;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-card p {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.project-card .btn {
+    background-image: linear-gradient(to right, #1e40af 0%, #061700 51%, #1e40af 100%);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.project-card .btn:hover {
+    background-position: right center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Adjust styles for the Project Section Header */
+header.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers text horizontally */
+    text-align: center; /* Centers text content */
+    margin-bottom: -4rem; /* Adds spacing below the section */
+}
+
+header .header {
+    font-size: 2.5rem;
+    color: #00c3ff; /* Matching the glow text color */
+    text-shadow: 0 0 10px rgba(0, 195, 255, 0.5), 0 0 20px rgba(0, 195, 255, 0.5);
+    margin-bottom: 0.5rem;
+}
+
+header .sub-header {
+    max-width: 700px; /* Restricts the width of the subtext */
+    font-size: 1.1rem; /* Slightly smaller text */
+    color: #cccccc; /* Softer text color */
+    margin-top: 0; /* Reduces gap between header and sub-header */
+}
+
