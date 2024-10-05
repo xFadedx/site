@@ -118,5 +118,7 @@ footer.container,
     }
 }
 
-
+footer.container {
+    display: none;
+}
 

@@ -63,8 +63,11 @@ p{
     margin-top: 2rem; /* Optional: Add some top margin */
 }
 
-footer.container,
-    .copyright {
+footer.container{
         display: none;
     }
-
+    
+    .copyright{
+        margin-top: 50px;
+        display:none;
+    }

@@ -614,3 +614,7 @@ footer .column > a:hover{
     width: 102%; /* Increase to 100% or more for a slightly extended effect */
 }
 /* PORTFOLIO.HTML BELOW */
+
+footer.container {
+            display: none;
+        }
