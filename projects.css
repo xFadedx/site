@@ -87,3 +87,36 @@ header .sub-header {
     margin-top: 0; /* Reduces gap between header and sub-header */
 }
 
+footer.container,
+    .copyright {
+        display: none;
+    }
+
+    
+
+
+    /* Wrapper for the entire navigation content */
+
+/* Wrapper for the nav links and Hire Me button */
+
+
+/* Styling for the navigation links */
+.nav-links {
+    display: flex;
+    justify-content: center; /* Center the link items */
+    margin-left: 550px;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+/* Responsive handling for smaller screens */
+@media (max-width: 768px) {
+    .nav-content {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        gap: 15px; /* Reduce spacing for smaller screens */
+    }
+}
+
+
+

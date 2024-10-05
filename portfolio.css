@@ -22,13 +22,6 @@ header .content {
     text-align: center; /* Center the text */
 }
 
-.nav-links{
-    list-style: none !important;
-    display: flex!important;
-    align-items: center!important;
-    gap: rem!important;
-    margin-right: -120px!important;
-}
 
 
 #role {
@@ -70,4 +63,8 @@ p{
     margin-top: 2rem; /* Optional: Add some top margin */
 }
 
+footer.container,
+    .copyright {
+        display: none;
+    }
 

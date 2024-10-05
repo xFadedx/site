@@ -587,4 +587,30 @@ footer .column > a:hover{
     display: flex;
     
 }
+
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.1rem;
+    transition: color 0.3s ease;
+}
+
+/* Hover underline effect */
+.nav-links li a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+    width: 102%; /* Increase to 100% or more for a slightly extended effect */
+}
 /* PORTFOLIO.HTML BELOW */
