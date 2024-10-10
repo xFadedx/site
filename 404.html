@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="/codeistry.co.uk/styles.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title>Home</title>
+    
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            
+        }
+
+        /* Center the nav links and buttons */
+        .nav-logo, .nav-links, .btn1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Style for the header container */
+        header.container {
+            display: flex;
+            align-items: center; /* Center vertically */
+            justify-content: center; /* Center horizontally */
+            min-height: 100vh; /* Cover the full viewport height */
+            text-align: center; /* Center text */
+
+        }
+
+        /* Style for the main content area */
+        .content {
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        /* Style for the headings */
+        h5 {
+            margin: 10px 0;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+
+        p {
+            margin: 15px 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Style for the buttons */
+        button.btn3 {
+            padding: 10px 20px;
+            border: none;
+            background: #3498db;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button.btn3:hover {
+            background: #2980b9;
+        }
+
+        h4{
+            font-family: 'Poppins', sans-serif;
+            font-size: 3rem;  /* Slightly smaller font size */
+    font-weight: bold;
+    color: white; /* Fallback color for browsers that don't support background-clip */
+    text-align: center; /* Center text */
+
+    /* Gradient text effect */
+    background: linear-gradient(90deg, #ffffff, #ffffff); /* Softer gradient color */
+    background-clip: text; /* Standard property */
+    -webkit-background-clip: text; /* WebKit-specific property */
+    -webkit-text-fill-color: transparent; /* WebKit-specific text transparency */
+
+    /* Adjusted text shadow for softer depth */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2), 
+                 2px 2px 6px rgba(0, 0, 0, 0.15), 
+                 0 0 10px rgba(255, 255, 255, 0.4), 
+                 0 0 20px rgba(255, 255, 255, 0.4);
+
+    /* Softer glow effect */
+    animation: glow 1.5s infinite alternate;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="/">Home</a></li>
+            <li id="link1" class="link"><a href="#">Features</a></li>
+            <li id="link2" class="link"><a href="#">Pricing</a></li>
+            <li id="link3" class="link"><a href="/portfolio/">Portfolio</a></li>
+        </ul>
+        <a href="/contact/">
+            <button class="btn1">Hire Me</button>
+        </a>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <h4>You're Lost...</h4>
+
+    <h5>404</h5>
+
+            
+        
+            <button class="btn" onclick="window.location.href='/contact/'">return home</button>
+        </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
