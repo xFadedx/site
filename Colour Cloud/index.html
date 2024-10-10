@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <button id="buttonColour">
+            <span class="buttonText">Change Colour</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<script>
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+document.getElementById("buttonColour").addEventListener("click", function() {
+    document.body.style.backgroundColor = getRandomColor();
+});
+</script></6>

@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #746f6f5d;
+}
+
+#buttonColour {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    margin-top: 90px;
+    margin-left: -20px;
+    width: 400px;
+    height: 140px;
+    background: #ECEFF1;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #39769e;
+    font-weight: bold;
+    z-index: 1;
+    white-space: nowrap;
+    transition: transform 0.3s ease; /* Added transition property */
+}
+
+#buttonColour::after,
+#buttonColour::before {
+    content: "";
+    position: relative;
+    background: inherit;
+    border-radius: inherit;
+}
+
+#buttonColour::after {
+    width: 500px;
+    height: 160px;
+    top: -2200px;
+    left: 600px;
+}
+
+#buttonColour::before {
+    width: 50000px;
+    height: 150px;
+    top: -65px;
+    left: 105px;
+    z-index: -1;
+}
+
+#buttonColour:hover {
+    transform: scale(1.05);
+}
+
+.buttonText {
+    left: 20px;
+    font-weight: bold;
+    color: #39769e;
+    transform: translate(-35%, -5%);
+}
