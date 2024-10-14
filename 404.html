@@ -92,7 +92,12 @@
     animation: glow 1.5s infinite alternate;
         }
 
-       
+       /* MEDIA QUERY FOR MOBILE SIZE */
+@media (max-width: 768px) {
+    .btn1,.nav-links {
+        display: none; 
+    }
+}
     </style>
 </head>
 
@@ -112,8 +117,6 @@
 
         <ul class="nav-links">
             <li class="link"><a href="/">Home</a></li>
-            <li id="link1" class="link"><a href="#">Features</a></li>
-            <li id="link2" class="link"><a href="#">Pricing</a></li>
             <li id="link3" class="link"><a href="/portfolio/">Portfolio</a></li>
         </ul>
         <a href="/contact/">
@@ -134,7 +137,12 @@
         </div>
         </div>
     </header>
-
+    <script>
+        function toggleMenu() {
+    var body = document.body; // Target the body element
+    body.classList.toggle("burger-active"); // Toggle the burger-active class
+}
+    </script>
 </body>
 
 </html>
