@@ -74,4 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // END OF TYPING EFFECT
 
+function toggleMenu() {
+    var body = document.body; // Target the body element
+    body.classList.toggle("burger-active"); // Toggle the burger-active class
+}
+
+
+
+
+
 
