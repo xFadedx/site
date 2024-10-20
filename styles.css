@@ -636,6 +636,12 @@ footer .column > a:hover{
         z-index: 1001; /* Ensure the burger icon is always on top */
     }
 
+    .responsive-image {
+        display: none; /* Hides the image when screen size is below 768px */
+    }
+
+
+
     .burger-menu .line {
         width: 100%;
         height: 4px;
